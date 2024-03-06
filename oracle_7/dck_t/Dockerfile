@@ -1,4 +1,4 @@
-FROM  oraclelinux:7.9
+FROM  oraclelinux:7
 
 COPY infinite.sh /tmp/
 RUN chmod +x /tmp/infinite.sh
