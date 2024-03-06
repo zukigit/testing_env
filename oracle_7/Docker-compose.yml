@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+
+  oracle7_tst_env:
+    image: zukidocker/oss:oracle7_tst_env
+    ports:  
+      - "10055:10055"
+      - "10061:10061"
+    container_name: oracle7_tst_env
